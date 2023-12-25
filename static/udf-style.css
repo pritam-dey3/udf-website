@@ -1,0 +1,82 @@
+.story-row {
+  min-height: 60vh;
+  overflow-y: auto;
+  padding: 42px 42px;
+}
+
+.cover {
+  background-image: url("/imgs/kids.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* filter: blur(2px); */
+  /* text-shadow: 6px 6px 5px rgba(0, 0, 0, 1);
+    -webkit-text-stroke: 0.2px black;
+    color: white; */
+}
+
+.title-text {
+  filter: none;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 1);
+
+  -webkit-text-stroke: 0.2px black;
+  color: white;
+}
+
+h1 {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  color: #080808;
+  -webkit-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+h1 span {
+  display: block;
+  font-size: 0.5em;
+  line-height: 1.3;
+}
+h1 em {
+  font-style: normal;
+  font-weight: 600;
+}
+.segment h1 {
+  text-transform: capitalize;
+}
+.segment h1:before {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 60px;
+  height: 2px;
+  content: "";
+  background-color: #c50000;
+}
+
+.segment h1 span {
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  line-height: 3em;
+  padding-left: 0.25em;
+  color: rgba(0, 0, 0, 0.4);
+  padding-bottom: 10px;
+}
+
+.caption {
+  background-color: rgba(0, 0, 0, 0.4);
+  /* width: 100%; */
+}
+
+.story-row:nth-child(even) {
+  background-image: url("/imgs/benner_11.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
