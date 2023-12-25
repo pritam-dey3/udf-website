@@ -5,7 +5,7 @@
 }
 
 .cover {
-  background-image: "./imgs/kids.jpeg";
+  background-image: url("../imgs/kids.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -75,7 +75,7 @@ h1 em {
 }
 
 .story-row:nth-child(even) {
-  background-image: "./imgs/benner_11.jpg";
+  background-image: url("../imgs/benner_11.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
